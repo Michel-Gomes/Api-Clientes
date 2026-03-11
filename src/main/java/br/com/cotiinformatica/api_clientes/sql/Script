@@ -1,0 +1,18 @@
+-- Script para criar uma tabela de clientes no PostgreSQL
+CREATE TABLE clientes (
+    id          UUID                PRIMARY KEY,
+    nome        VARCHAR(100)        NOT NULL,
+    email       VARCHAR(50)         NOT NULL,
+    cpf         CHAR(11)            NOT NULL
+);
+
+--Cadastrando alguns clientes na tabela
+INSERT INTO clientes(id, nome, email, cpf)
+VALUES
+    (gen_random_uuid(), 'Ana Maria', 'anamaria@gmail.com', '12345678900'),
+    (gen_random_uuid(), 'Marcos Oliveira', 'marcosoliveira@gmail.com', '98765432100'),
+    (gen_random_uuid(), 'Marcelo Diego', 'marcelodiego@gmail.com', '54321678900');
+
+--Consultando os clientes cadastrados
+
+SELECT id, nome, email, cpf FROM clientes;
