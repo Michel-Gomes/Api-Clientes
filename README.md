@@ -35,6 +35,12 @@ A API permite realizar as seguintes operações:
 
 ---
 
+# 📌 Repositório:
+
+ https://github.com/Michel-Gomes/Web-Clientes
+
+ ---
+ 
 ## 📂 Estrutura do Projeto
 
 A estrutura do projeto está organizada da seguinte forma:
@@ -49,14 +55,10 @@ A estrutura do projeto está organizada da seguinte forma:
  ┃ ┣ 📂 repositories
  ┃ ┣ 📂 requests
  ┃ ┗ 📂 sql
- ┗ 📂 frontend
-   ┗ 📂 components
+
 ```
 ---
 
 # 💡 Objetivo do Projeto
 
 Este projeto foi desenvolvido para fins de **aprendizado e prática de desenvolvimento backend com Java e Spring Boot**, demonstrando a criação de uma **API REST integrada com banco de dados PostgreSQL e preparada para comunicação com aplicações frontend**.
-
-Repositório:
-https://github.com/Michel-Gomes/Web-Clientes
